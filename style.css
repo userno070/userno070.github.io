@@ -1,0 +1,51 @@
+html, body{
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+body{
+  background: url(header.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+h1{
+  color:white;
+  font-family: "Rubik Gemstones";
+  font-size: 2em;
+}
+
+hr{
+  max-width:60px ;
+  border-width:3px;
+  margin:20px auto;
+  border-color:red;
+}
+
+
+
+.space{
+  height:8rem;
+
+}
+
+
+.bn{
+  background-color: #e12300;
+  border-color:#e12300;
+  padding:10px;
+  font-weight: 700;
+  height: 50px;
+  width: 160px;
+}
+
+.bn:hover{
+  background-color: #b40a28;
+  border-color:#b40a28;
+  font-weight:450;
+ 
+}
